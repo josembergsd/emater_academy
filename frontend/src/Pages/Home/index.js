@@ -14,7 +14,7 @@ export default function Home() {
       <Jumbotron>
         <Container>
           <h1>Página Home</h1>
-          
+          <h3>Implementação pendente</h3>
           
 
         </Container>
