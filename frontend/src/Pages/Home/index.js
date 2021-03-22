@@ -1,10 +1,23 @@
 import React from 'react';
-import { Jumbotron } from 'reactstrap';
+import { 
+  Jumbotron, 
+  Container, 
+  Card, 
+  CardImg, 
+  CardText, 
+  CardBody,
+  CardTitle, 
+  CardSubtitle, 
+  Button } from 'reactstrap';
 export default function Home() {
  return (
-   <Jumbotron>
-      <h1>Página Home</h1>
-   </Jumbotron>
-   
+      <Jumbotron>
+        <Container>
+          <h1>Página Home</h1>
+          
+          
+
+        </Container>
+    </Jumbotron>
  );
 }

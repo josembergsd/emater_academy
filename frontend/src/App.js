@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import Routes from './routes';
+import "./App.css";
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -8,11 +9,11 @@ import Footer from './components/Footer';
 class App extends Component{
   render() {
       return(
-        <BrowserRouter>
+        <Router>
             <Header />
             <Routes />
             <Footer />
-        </BrowserRouter>
+        </Router>
       );
   }
 }

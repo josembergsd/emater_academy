@@ -22,39 +22,39 @@ function Header(){
 
   return(
     <div>
-    <Navbar color="primary" dark expand="md">
-      <NavbarBrand href="/">DNSistemas</NavbarBrand>
-      <NavbarToggler onClick={toggle} />
-      <Collapse isOpen={isOpen} navbar>
-        <Nav className="me-auto" navbar>
-          <NavItem>
-            <NavLink href="/components/">Quem Somos</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
-          </NavItem>
-          <UncontrolledDropdown nav inNavbar>
-            <DropdownToggle nav caret>
-              Options
-            </DropdownToggle>
-            <DropdownMenu right>
-              <DropdownItem>
-                Option 1
-              </DropdownItem>
-              <DropdownItem>
-                Option 2
-              </DropdownItem>
-              <DropdownItem divider />
-              <DropdownItem>
-                Reset
-              </DropdownItem>
-            </DropdownMenu>
-          </UncontrolledDropdown>
-        </Nav>
-        <NavbarText>Simple Text</NavbarText>
-      </Collapse>
-    </Navbar>
-  </div>
+      <Navbar color="primary" dark expand="md">
+        <NavbarBrand href="/">DNSistemas</NavbarBrand>
+        <NavbarToggler onClick={toggle} />
+        <Collapse isOpen={isOpen} navbar>
+          <Nav className="me-auto" navbar>
+            <NavItem>
+              <NavLink href="/components/">Quem Somos</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+            </NavItem>
+            <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle nav caret>
+                Serviços
+              </DropdownToggle>
+              <DropdownMenu right>
+                <DropdownItem>
+                  Desenvolvimento Web
+                </DropdownItem>
+                <DropdownItem>
+                  Desenvolviemnto Mobile
+                </DropdownItem>
+                <DropdownItem divider />
+                <DropdownItem>
+                  Consultoria em TI
+                </DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
+          </Nav>
+          <NavbarText>Simple Text</NavbarText>
+        </Collapse>
+      </Navbar>
+    </div>
   );
 }
 
